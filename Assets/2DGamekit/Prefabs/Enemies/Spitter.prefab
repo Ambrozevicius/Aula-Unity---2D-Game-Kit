@@ -195,8 +195,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteFaceLeft: 0
-  speed: 30
-  gravity: 10
+  speed: 0
+  gravity: 6.37
   projectilePrefab: {fileID: 114793620227127496, guid: 7a9b8f4adaceb7d469f3f02edc8472d5,
     type: 3}
   viewDirection: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
   meleeDamager: {fileID: 0}
   contactDamager: {fileID: 114516403870706252}
   attackDash: 0
-  attackForce: {x: 0, y: 0}
+  attackForce: {x: 0, y: -5.99}
   shootingOrigin: {fileID: 4329106020219736}
   shootingAudio: {fileID: 114467981819792882}
   meleeAttackAudio: {fileID: 0}
